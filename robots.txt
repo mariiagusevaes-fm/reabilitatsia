@@ -1,0 +1,37 @@
+User-Agent: *
+Disallow: /page26170224.html
+Disallow: /page26192735.html
+Disallow: /header
+Disallow: /page26193347.html
+Disallow: /statsionar
+Disallow: /page26193344.html
+Disallow: /protesirovanie
+Disallow: /page28127742.html
+Disallow: /rostov-na-donu
+Disallow: /page28128066.html
+Disallow: /rostov-na-donu/v_statsionare_sanatorii
+Disallow: /page32597332.html
+Disallow: /hirurgiya
+Disallow: /page32611802.html
+Disallow: /reabilitatsia
+Disallow: /page32612688.html
+Disallow: /nevrologiya
+Disallow: /page32614877.html
+Disallow: /psihoterapiya
+Disallow: /page32615297.html
+Disallow: /diagnostika
+Disallow: /page34822754.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://reabilitatsia.ru/sitemap.xml
+Host: https://reabilitatsia.ru

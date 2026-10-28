@@ -1,0 +1,126 @@
+ErrorDocument 403 /page26170224.html
+ErrorDocument 404 /page26170224.html
+
+DirectoryIndex page26151720.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://reabilitatsia\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.reabilitatsia.ru [NC]
+RewriteRule ^(.*)$ https://reabilitatsia\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^centr-reabilitatsii-zabota$ page26151720.html [NC]
+RewriteRule ^centr-reabilitatsii-zabota/$ page26151720.html [NC]
+
+RewriteRule ^travma$ page26192977.html [NC]
+RewriteRule ^travma/$ page26192977.html [NC]
+
+RewriteRule ^header$ page26192735.html [NC]
+RewriteRule ^header/$ page26192735.html [NC]
+
+RewriteRule ^posle_coronavirusa$ page26193313.html [NC]
+RewriteRule ^posle_coronavirusa/$ page26193313.html [NC]
+
+RewriteRule ^recomendatsi$ page26267214.html [NC]
+RewriteRule ^recomendatsi/$ page26267214.html [NC]
+
+RewriteRule ^lechebny_massazh$ page26193316.html [NC]
+RewriteRule ^lechebny_massazh/$ page26193316.html [NC]
+
+RewriteRule ^insult$ page26193335.html [NC]
+RewriteRule ^insult/$ page26193335.html [NC]
+
+RewriteRule ^statsionar$ page26193347.html [NC]
+RewriteRule ^statsionar/$ page26193347.html [NC]
+
+RewriteRule ^prolejni$ page26279934.html [NC]
+RewriteRule ^prolejni/$ page26279934.html [NC]
+
+RewriteRule ^obrabotkaprolejnei$ page26379409.html [NC]
+RewriteRule ^obrabotkaprolejnei/$ page26379409.html [NC]
+
+RewriteRule ^tyjelobolnie$ page26286567.html [NC]
+RewriteRule ^tyjelobolnie/$ page26286567.html [NC]
+
+RewriteRule ^protesirovanie$ page26193344.html [NC]
+RewriteRule ^protesirovanie/$ page26193344.html [NC]
+
+RewriteRule ^blagotvoritelnost$ page26216568.html [NC]
+RewriteRule ^blagotvoritelnost/$ page26216568.html [NC]
+
+RewriteRule ^stoimost$ page26320230.html [NC]
+RewriteRule ^stoimost/$ page26320230.html [NC]
+
+RewriteRule ^otravlenie$ page26679435.html [NC]
+RewriteRule ^otravlenie/$ page26679435.html [NC]
+
+RewriteRule ^rostov-na-donu$ page28127742.html [NC]
+RewriteRule ^rostov-na-donu/$ page28127742.html [NC]
+
+RewriteRule ^rostov-na-donu/posle_travm$ page28127890.html [NC]
+RewriteRule ^rostov-na-donu/posle_travm/$ page28127890.html [NC]
+
+RewriteRule ^rostov-na-donu/posle_koronavirusa$ page28128038.html [NC]
+RewriteRule ^rostov-na-donu/posle_koronavirusa/$ page28128038.html [NC]
+
+RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa$ page28128045.html [NC]
+RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa/$ page28128045.html [NC]
+
+RewriteRule ^troficheskye_yazvy$ page28128056.html [NC]
+RewriteRule ^troficheskye_yazvy/$ page28128056.html [NC]
+
+RewriteRule ^rostov-na-donu/posle_insulta/$ page28128058.html [NC]
+RewriteRule ^rostov-na-donu/posle_insulta//$ page28128058.html [NC]
+
+RewriteRule ^rostov-na-donu/v_statsionare_sanatorii$ page28128066.html [NC]
+RewriteRule ^rostov-na-donu/v_statsionare_sanatorii/$ page28128066.html [NC]
+
+RewriteRule ^rostov-na-donu/lechenie_prolezhnei/$ page28128070.html [NC]
+RewriteRule ^rostov-na-donu/lechenie_prolezhnei//$ page28128070.html [NC]
+
+RewriteRule ^rostov-na-donu/obrabotka_prolezhnei_samostoyatelno/$ page28128075.html [NC]
+RewriteRule ^rostov-na-donu/obrabotka_prolezhnei_samostoyatelno//$ page28128075.html [NC]
+
+RewriteRule ^rostov-na-donu/tyazhelyh_bolnyh/$ page28128080.html [NC]
+RewriteRule ^rostov-na-donu/tyazhelyh_bolnyh//$ page28128080.html [NC]
+
+RewriteRule ^kapelnitsy_na_domu$ page28128086.html [NC]
+RewriteRule ^kapelnitsy_na_domu/$ page28128086.html [NC]
+
+RewriteRule ^rostov-na-donu/blagotvoritelnost/$ page28128090.html [NC]
+RewriteRule ^rostov-na-donu/blagotvoritelnost//$ page28128090.html [NC]
+
+RewriteRule ^rostov-na-donu/tseny$ page28128093.html [NC]
+RewriteRule ^rostov-na-donu/tseny/$ page28128093.html [NC]
+
+RewriteRule ^rostov-na-donu/posle_otravlenia/$ page28128098.html [NC]
+RewriteRule ^rostov-na-donu/posle_otravlenia//$ page28128098.html [NC]
+
+RewriteRule ^hirurgiya$ page32597332.html [NC]
+RewriteRule ^hirurgiya/$ page32597332.html [NC]
+
+RewriteRule ^reabilitatsia$ page32611802.html [NC]
+RewriteRule ^reabilitatsia/$ page32611802.html [NC]
+
+RewriteRule ^nevrologiya$ page32612688.html [NC]
+RewriteRule ^nevrologiya/$ page32612688.html [NC]
+
+RewriteRule ^psihoterapiya$ page32614877.html [NC]
+RewriteRule ^psihoterapiya/$ page32614877.html [NC]
+
+RewriteRule ^diagnostika$ page32615297.html [NC]
+RewriteRule ^diagnostika/$ page32615297.html [NC]
+
+RewriteRule ^lechenie_vrosshego_nogtya$ page38253631.html [NC]
+RewriteRule ^lechenie_vrosshego_nogtya/$ page38253631.html [NC]
+
+RewriteRule ^travmatolog-ortoped-na-dom-moskva$ page39404216.html [NC]
+RewriteRule ^travmatolog-ortoped-na-dom-moskva/$ page39404216.html [NC]
+
+
