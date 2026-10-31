@@ -6,10 +6,6 @@ Disallow: /page26193347.html
 Disallow: /statsionar
 Disallow: /page26193344.html
 Disallow: /protesirovanie
-Disallow: /page28127742.html
-Disallow: /rostov-na-donu
-Disallow: /page28128066.html
-Disallow: /rostov-na-donu/v_statsionare_sanatorii
 Disallow: /page32597332.html
 Disallow: /hirurgiya
 Disallow: /page32611802.html

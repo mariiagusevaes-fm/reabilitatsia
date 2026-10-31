@@ -60,47 +60,35 @@ RewriteRule ^stoimost/$ page26320230.html [NC]
 RewriteRule ^otravlenie$ page26679435.html [NC]
 RewriteRule ^otravlenie/$ page26679435.html [NC]
 
-RewriteRule ^rostov-na-donu$ page28127742.html [NC]
-RewriteRule ^rostov-na-donu/$ page28127742.html [NC]
+RewriteRule ^rostov-na-donu/?$ https://reabilitatsia.ru/ [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/posle_travm$ page28127890.html [NC]
-RewriteRule ^rostov-na-donu/posle_travm/$ page28127890.html [NC]
+RewriteRule ^rostov-na-donu/posle_travm/?$ https://reabilitatsia.ru/travma [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/posle_koronavirusa$ page28128038.html [NC]
-RewriteRule ^rostov-na-donu/posle_koronavirusa/$ page28128038.html [NC]
+RewriteRule ^rostov-na-donu/posle_koronavirusa/?$ https://reabilitatsia.ru/posle_coronavirusa [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa$ page28128045.html [NC]
-RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa/$ page28128045.html [NC]
+RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa/?$ https://reabilitatsia.ru/recomendatsi [R=301,L,NC]
 
 RewriteRule ^troficheskye_yazvy$ page28128056.html [NC]
 RewriteRule ^troficheskye_yazvy/$ page28128056.html [NC]
 
-RewriteRule ^rostov-na-donu/posle_insulta/$ page28128058.html [NC]
-RewriteRule ^rostov-na-donu/posle_insulta//$ page28128058.html [NC]
+RewriteRule ^rostov-na-donu/posle_insulta/?$ https://reabilitatsia.ru/insult [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/v_statsionare_sanatorii$ page28128066.html [NC]
-RewriteRule ^rostov-na-donu/v_statsionare_sanatorii/$ page28128066.html [NC]
+RewriteRule ^rostov-na-donu/v_statsionare_sanatorii/?$ https://reabilitatsia.ru/statsionar [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/lechenie_prolezhnei/$ page28128070.html [NC]
-RewriteRule ^rostov-na-donu/lechenie_prolezhnei//$ page28128070.html [NC]
+RewriteRule ^rostov-na-donu/lechenie_prolezhnei/?$ https://reabilitatsia.ru/prolejni [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/obrabotka_prolezhnei_samostoyatelno/$ page28128075.html [NC]
-RewriteRule ^rostov-na-donu/obrabotka_prolezhnei_samostoyatelno//$ page28128075.html [NC]
+RewriteRule ^rostov-na-donu/obrabotka_prolezhnei_samostoyatelno/?$ https://reabilitatsia.ru/obrabotkaprolejnei [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/tyazhelyh_bolnyh/$ page28128080.html [NC]
-RewriteRule ^rostov-na-donu/tyazhelyh_bolnyh//$ page28128080.html [NC]
+RewriteRule ^rostov-na-donu/tyazhelyh_bolnyh/?$ https://reabilitatsia.ru/tyjelobolnie [R=301,L,NC]
 
 RewriteRule ^kapelnitsy_na_domu$ page28128086.html [NC]
 RewriteRule ^kapelnitsy_na_domu/$ page28128086.html [NC]
 
-RewriteRule ^rostov-na-donu/blagotvoritelnost/$ page28128090.html [NC]
-RewriteRule ^rostov-na-donu/blagotvoritelnost//$ page28128090.html [NC]
+RewriteRule ^rostov-na-donu/blagotvoritelnost/?$ https://reabilitatsia.ru/blagotvoritelnost [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/tseny$ page28128093.html [NC]
-RewriteRule ^rostov-na-donu/tseny/$ page28128093.html [NC]
+RewriteRule ^rostov-na-donu/tseny/?$ https://reabilitatsia.ru/stoimost [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/posle_otravlenia/$ page28128098.html [NC]
-RewriteRule ^rostov-na-donu/posle_otravlenia//$ page28128098.html [NC]
+RewriteRule ^rostov-na-donu/posle_otravlenia/?$ https://reabilitatsia.ru/otravlenie [R=301,L,NC]
 
 RewriteRule ^hirurgiya$ page32597332.html [NC]
 RewriteRule ^hirurgiya/$ page32597332.html [NC]
