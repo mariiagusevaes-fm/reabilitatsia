@@ -7,11 +7,15 @@
  * непосредственно на форму. Внешний вид форм и блока "спасибо" не меняется —
  * используются существующие классы и атрибуты Tilda (.t-form__successbox,
  * .t-form__inputsbox, data-success-message и т.д.).
+ *
+ * Отправка идёт через Formspree (GitHub Pages не исполняет PHP, поэтому
+ * собственный mail.php использовать нельзя).
  */
 (function () {
   'use strict';
 
-  var ENDPOINT = 'mail.php';
+  var ENDPOINT = 'https://formspree.io/f/xkjjkvpe';
+  var HONEYPOT_FIELD = 'company';
 
   function toArray(nodeList) {
     return Array.prototype.slice.call(nodeList);
@@ -78,27 +82,44 @@
       return;
     }
 
+    // Honeypot: если скрытое поле заполнено - это бот. Отвечаем "успехом",
+    // чтобы бот не подстраивался, но на Formspree ничего не отправляем.
+    var honeypot = form.querySelector('[name="' + HONEYPOT_FIELD + '"]');
+    if (honeypot && honeypot.value) {
+      showSuccess(form);
+      return;
+    }
+
     var formData = new FormData(form);
     formData.append('page_url', window.location.href);
+    formData.append('_subject', 'Заявка с сайта reabilitatsia.ru');
 
     setSubmitting(form, true);
 
     fetch(ENDPOINT, {
       method: 'POST',
       body: formData,
-      headers: { 'X-Requested-With': 'XMLHttpRequest' }
+      headers: { 'Accept': 'application/json' }
     })
       .then(function (response) {
         return response.json().catch(function () {
-          return { status: 'error', message: 'Сервер вернул непонятный ответ.' };
+          return {};
+        }).then(function (json) {
+          return { ok: response.ok, json: json };
         });
       })
-      .then(function (json) {
+      .then(function (result) {
         setSubmitting(form, false);
-        if (json && json.status === 'ok') {
+        if (result.ok) {
           showSuccess(form);
         } else {
-          showFormError(form, (json && json.message) || 'Не удалось отправить заявку. Попробуйте позже или позвоните нам.');
+          var message = 'Не удалось отправить заявку. Попробуйте позже или позвоните нам.';
+          if (result.json && Array.isArray(result.json.errors) && result.json.errors.length) {
+            message = result.json.errors.map(function (e) { return e.message; }).join(', ');
+          } else if (result.json && result.json.error) {
+            message = result.json.error;
+          }
+          showFormError(form, message);
         }
       })
       .catch(function () {
