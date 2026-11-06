@@ -10,8 +10,6 @@ Disallow: /page32612688.html
 Disallow: /nevrologiya
 Disallow: /page32614877.html
 Disallow: /psihoterapiya
-Disallow: /page32615297.html
-Disallow: /diagnostika
 Disallow: /page34822754.html
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
