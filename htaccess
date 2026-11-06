@@ -26,8 +26,7 @@ RewriteRule ^header/$ page26192735.html [NC]
 RewriteRule ^posle_coronavirusa$ page26193313.html [NC]
 RewriteRule ^posle_coronavirusa/$ page26193313.html [NC]
 
-RewriteRule ^recomendatsi$ page26267214.html [NC]
-RewriteRule ^recomendatsi/$ page26267214.html [NC]
+RewriteRule ^recomendatsi/?$ https://reabilitatsia.ru/posle_coronavirusa [R=301,L,NC]
 
 RewriteRule ^lechebny_massazh$ page26193316.html [NC]
 RewriteRule ^lechebny_massazh/$ page26193316.html [NC]
@@ -65,7 +64,7 @@ RewriteRule ^rostov-na-donu/posle_travm/?$ https://reabilitatsia.ru/travma [R=30
 
 RewriteRule ^rostov-na-donu/posle_koronavirusa/?$ https://reabilitatsia.ru/posle_coronavirusa [R=301,L,NC]
 
-RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa/?$ https://reabilitatsia.ru/recomendatsi [R=301,L,NC]
+RewriteRule ^rostov-na-donu/rekomendatsii_posle_koronavirusa/?$ https://reabilitatsia.ru/posle_coronavirusa [R=301,L,NC]
 
 RewriteRule ^troficheskye_yazvy$ page28128056.html [NC]
 RewriteRule ^troficheskye_yazvy/$ page28128056.html [NC]

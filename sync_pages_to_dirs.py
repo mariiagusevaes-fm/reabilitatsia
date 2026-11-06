@@ -17,7 +17,8 @@ PAIRS = {
     "travma": "page26192977.html",
     "header": "page26192735.html",
     "posle_coronavirusa": "page26193313.html",
-    "recomendatsi": "page26267214.html",
+    # "recomendatsi" removed: was an empty stub, merged into /posle_coronavirusa,
+    # now a static 301-style redirect page (recomendatsi/index.html), not synced.
     "lechebny_massazh": "page26193316.html",
     "insult": "page26193335.html",
     "statsionar": "page26193347.html",
