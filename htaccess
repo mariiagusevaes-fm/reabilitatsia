@@ -91,6 +91,9 @@ RewriteRule ^vosstanovlenie_rechi/$ page90000002.html [NC]
 RewriteRule ^ortopedicheskie_stelki$ page90000003.html [NC]
 RewriteRule ^ortopedicheskie_stelki/$ page90000003.html [NC]
 
+RewriteRule ^fizioprocedury_na_domu$ page90000004.html [NC]
+RewriteRule ^fizioprocedury_na_domu/$ page90000004.html [NC]
+
 RewriteRule ^rostov-na-donu/blagotvoritelnost/?$ https://reabilitatsia.ru/blagotvoritelnost [R=301,L,NC]
 
 RewriteRule ^rostov-na-donu/tseny/?$ https://reabilitatsia.ru/stoimost [R=301,L,NC]
