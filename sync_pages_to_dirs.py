@@ -12,7 +12,8 @@ import os
 import re
 
 PAIRS = {
-    "centr-reabilitatsii-zabota": "page26151720.html",
+    # "centr-reabilitatsii-zabota" removed: duplicate of homepage (same source file),
+    # now a static 301-style redirect page (centr-reabilitatsii-zabota/index.html), not synced.
     "travma": "page26192977.html",
     "header": "page26192735.html",
     "posle_coronavirusa": "page26193313.html",

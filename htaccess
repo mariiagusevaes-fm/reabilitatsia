@@ -15,8 +15,7 @@ RewriteRule ^(.*)$ https://reabilitatsia\.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
 RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
-RewriteRule ^centr-reabilitatsii-zabota$ page26151720.html [NC]
-RewriteRule ^centr-reabilitatsii-zabota/$ page26151720.html [NC]
+RewriteRule ^centr-reabilitatsii-zabota/?$ https://reabilitatsia.ru/ [R=301,L,NC]
 
 RewriteRule ^travma$ page26192977.html [NC]
 RewriteRule ^travma/$ page26192977.html [NC]
