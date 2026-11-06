@@ -85,6 +85,9 @@ RewriteRule ^kapelnitsy_na_domu/$ page28128086.html [NC]
 RewriteRule ^shvy_na_domu$ page90000001.html [NC]
 RewriteRule ^shvy_na_domu/$ page90000001.html [NC]
 
+RewriteRule ^vosstanovlenie_rechi$ page90000002.html [NC]
+RewriteRule ^vosstanovlenie_rechi/$ page90000002.html [NC]
+
 RewriteRule ^rostov-na-donu/blagotvoritelnost/?$ https://reabilitatsia.ru/blagotvoritelnost [R=301,L,NC]
 
 RewriteRule ^rostov-na-donu/tseny/?$ https://reabilitatsia.ru/stoimost [R=301,L,NC]
