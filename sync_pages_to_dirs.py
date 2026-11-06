@@ -33,6 +33,7 @@ PAIRS = {
     "kapelnitsy_na_domu": "page28128086.html",
     "shvy_na_domu": "page90000001.html",
     "vosstanovlenie_rechi": "page90000002.html",
+    "ortopedicheskie_stelki": "page90000003.html",
     "hirurgiya": "page32597332.html",
     "reabilitatsia": "page32611802.html",
     "nevrologiya": "page32612688.html",
