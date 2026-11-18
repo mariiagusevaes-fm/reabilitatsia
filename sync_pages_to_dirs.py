@@ -42,6 +42,7 @@ PAIRS = {
     "diagnostika": "page32615297.html",
     "lechenie_vrosshego_nogtya": "page38253631.html",
     "travmatolog-ortoped-na-dom-moskva": "page39404216.html",
+    "o-nas": "page90000005.html",
 }
 HOMEPAGE_SRC = "page26151720.html"
 
