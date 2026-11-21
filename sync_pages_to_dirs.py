@@ -43,6 +43,9 @@ PAIRS = {
     "lechenie_vrosshego_nogtya": "page38253631.html",
     "travmatolog-ortoped-na-dom-moskva": "page39404216.html",
     "o-nas": "page90000005.html",
+    "zamena_katetera_na_domu": "page90000006.html",
+    "zamena_kaloprijomnika_na_domu": "page90000007.html",
+    "klizma_pri_koprostaze_na_domu": "page90000008.html",
 }
 HOMEPAGE_SRC = "page26151720.html"
 
